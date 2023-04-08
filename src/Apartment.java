@@ -1,10 +1,10 @@
 public class Apartment {
-    String name;
-    int no;
-    int floorsCount = 0;
-    Floor[] floors = new Floor[100];
+    private String name;
+    private int no;
+    private int floorsCount = 0;
+    private Floor[] floors = new Floor[100];
     private boolean[] houseID = new boolean[1000];
-    String[] floorColors = new String[floors.length];
+    private String[] floorColors = new String[floors.length];
 
     public Apartment(String name, int no) {
         this.name = name;
